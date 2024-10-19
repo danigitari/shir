@@ -1,0 +1,198 @@
+/* body{
+    background-color: #E8ECEB;
+}
+.row {
+    display: flex;
+    padding-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.column {
+    flex: 1;
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+    background-color: bisque;
+   
+
+}
+
+.row p {
+    background-color: lavenderblush;
+    width: 40px;
+    height: 40px;
+    justify-content:center;
+    align-content: center;
+    
+}
+#heading {
+    background-color: #2D3E4E;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+#content  {
+    background-color: #8CBDB9;
+    color: black;
+    padding: 20px;
+    text-align: justify;
+}
+.p {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+} 
+
+/* Responsive Styles */
+/* 
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .p {
+        font-size: 0.9rem;
+    }
+
+    .button {
+        padding: 8px 16px;
+    }
+} */ 
+ /* General Body Styles */
+ body {
+     background-color: #E8ECEB;
+     /* Soft light background */
+     font-family: 'Arial', sans-serif;
+     /* Clean sans-serif font */
+     line-height: 1.6;
+     /* Improved line height for readability */
+ }
+
+ /* Row Styles */
+ .row {
+     display: flex;
+     padding-top: 20px;
+     width: 30%;
+     height: 30%;
+     /* Set to full width for flexibility */
+     justify-content: center;
+     /* Center content */
+ }
+
+ /* Column Styles */
+ .column {
+     flex: 1;
+     /* Equal distribution */
+     border: 2px solid #b0c4de;
+     /* Light gray border */
+     margin: 5px;
+     /* Added margin for spacing between columns */
+     padding: 10px;
+     text-align: center;
+     background-color: #f9e8d9;
+     /* Softer background color for columns */
+     /* Rounded corners for a modern look */
+     transition: transform 0.3s;
+     /* Smooth hover effect */
+ }
+
+ .column:hover {
+     transform: scale(1.05);
+     /* Slight zoom on hover */
+ }
+
+ /* Paragraph Styles within Row */
+ .row p {
+     background-color: #f5d1d1;
+     /* Softer background for paragraph */
+     width: 40px;
+     height: 40px;
+     display: flex;
+     /* Use flexbox for centering */
+     justify-content: center;
+     /* Center content horizontally */
+     align-items: center;
+     /* Center content vertically */
+     margin: 0 auto;
+     /* Center paragraph within the column */
+     border-radius: 4px;
+     /* Slight rounding of corners */
+     font-weight: bold;
+     /* Bold text for emphasis */
+ }
+
+ /* Heading Styles */
+ #heading {
+     background-color: #2D3E4E;
+     /* Darker blue-gray */
+     color: white;
+     /* White text for contrast */
+     padding: 40px;
+     text-align: center;
+     border-radius: 8px;
+     /* Rounded corners */
+ }
+
+ /* Content Styles */
+ #content {
+     background-color: #8CBDB9;
+     /* Soft teal color */
+     color: black;
+     /* Black text for readability */
+     padding: 20px;
+     text-align: justify;
+     border-radius: 8px;
+     /* Rounded corners */
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     /* Subtle shadow for depth */
+ }
+
+ /* Paragraph Styles */
+ .p {
+     font-size: large;
+     font-family: 'Times New Roman', Times, serif;
+     margin: 10px 0;
+     /* Space between paragraphs */
+ }
+
+ /* Responsive Styles */
+ @media (max-width: 600px) {
+     body {
+         font-size: 14px;
+         /* Adjust body font size */
+     }
+
+     #heading {
+         padding: 20px;
+         /* Reduce padding on small screens */
+     }
+
+     .column {
+         padding: 5px;
+         /* Reduce padding for smaller screens */
+     }
+
+     h1 {
+         font-size: 2rem;
+         /* Adjust heading size */
+     }
+
+     h2 {
+         font-size: 1.5rem;
+         /* Adjust subheading size */
+     }
+
+     .p {
+         font-size: 0.9rem;
+         /* Adjust paragraph size */
+     }
+ }
