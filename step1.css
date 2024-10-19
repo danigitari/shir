@@ -1,6 +1,8 @@
-/* body{
-    background-color: #E8ECEB;
+body{ background-color: #E8ECEB;
+    padding: 50px;
 }
+/* 
+
 .row {
     display: flex;
     padding-top: 20px;
@@ -144,6 +146,7 @@
 
 /* Content Styles */
 #content {
+
     background-color: #8CBDB9;
     /* Soft teal color */
     color: black;
@@ -197,7 +200,10 @@
     }
 }
 #container {
-    display :flex ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;  
 }
 #container div {
     margin: 10;

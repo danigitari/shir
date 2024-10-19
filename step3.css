@@ -1,21 +1,22 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: bisque;
+ 
     color: #333;
     margin: 0;
     padding: 0;
+    background-color: #E8ECEB;
+
 }
 #heading {
-   background-color: lavenderblush;
+
    text-align: center;
    padding: 20px;
 }
 
 .container {
     max-width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: lavenderblush;
+  
+
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0);
 }
